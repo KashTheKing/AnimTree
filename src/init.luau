@@ -14,6 +14,11 @@ local animations = script.Animations
 	@class AnimTree
 ]=]
 local AnimTree = {}
+
+--[=[
+	@prop Tracks { [Animator]: { [string]: AnimationTrack } }
+	@within AnimTree
+]=]
 AnimTree.Tracks = {} :: { [Animator]: { [string]: AnimationTrack } }
 
 --[=[
